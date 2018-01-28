@@ -42,15 +42,7 @@
                     <div class="selection-box ">
                         <div style="padding-left: 10px; padding-top:10px">
                             Escolha a cidade:
-                            <div class="dropdown">
-                                <button class="btn btn-cidade dropdown-toggle pull-left" type="button" data-toggle="dropdown">
-                                    <div class="row">
-                                        <div class="col-xs-9 cidade">Cidade</div>
-                                        <div class="col-xs-3"><span class="glyphicon glyphicon-chevron-down"></span></div>
-                                    </div>
-                                </button>
-                                <ul id="menuCidades" class="dropdown-menu" role='menu'></ul>
-                            </div>
+                            <select id="menuCidades" class="btn-cidade" onchange="selectCity(this.value)" role='menu'></select>
                         </div>
                     </div>
                 </div>
@@ -121,6 +113,7 @@
                         <span class="error-message">
                             Cidade não encontrada!
                         </span>
+                        <span class="glyphicon glyphicon-refresh glyphicon-refresh-animate spinner"></span>
                     </div>
                 </div>
             </div>

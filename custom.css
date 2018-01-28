@@ -13,9 +13,11 @@
     display: none;
 }
 
+
 .titulo-text {
     font-size: 18px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
     padding-top: 15%;
 }
@@ -30,17 +32,23 @@
     margin-right: 10px;
     height: 100px;
     width: 280px;
+    
 }
 
 .btn-cidade {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
     background-color: rgba(0,0,0,0);
     border-radius: 0px;
-    border-width: 1px;
-    border-color: white;
+    border-width: 2px;
     margin-top: 10px;
     width: 95%;
     height:50px;
-    font-size: 18px;
+}
+
+.select-option {
+    color:black;
+    font-size: 12px;
 }
 
 .weather-box {
@@ -61,4 +69,22 @@
 
 .temperature-cell {
     padding-right: 0px;
+}
+
+/* loading spinner */
+.glyphicon-refresh-animate {
+    margin-top: 10px;
+    color: dimgray;
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
 }
