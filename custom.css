@@ -1,0 +1,64 @@
+.wrapper-background {
+    z-index: 0;
+    color: #fff;
+    background-image:url('resources/bg.png');
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 230px;
+    margin: 0;
+}
+
+.error-message{
+    color:red;
+    display: none;
+}
+
+.titulo-text {
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    padding-top: 15%;
+}
+
+.titulo-icon{
+    height: 100px;
+    width: 100px;
+}
+
+.selection-box {
+    background-color: rgba(0,0,0,0.7);
+    margin-right: 10px;
+    height: 100px;
+    width: 280px;
+}
+
+.btn-cidade {
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: white;
+    margin-top: 10px;
+    width: 95%;
+    height:50px;
+    font-size: 18px;
+}
+
+.weather-box {
+    background-color: white;
+    height:200px;
+    margin-top: 14px;
+}
+
+.condition-icon {
+    height: 36px;
+    width: 36px;
+}
+
+.temperature-info {
+    font-size: 12px;
+    color: dimgray;
+}
+
+.temperature-cell {
+    padding-right: 0px;
+}
